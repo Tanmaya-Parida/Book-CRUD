@@ -12,9 +12,9 @@ public class DataBaseUtil {
 
 		dataSource = new BasicDataSource();
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/cglia");
-		dataSource.setUsername("root");
-		dataSource.setPassword("7381416008");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/database_name");
+		dataSource.setUsername("user_name");
+		dataSource.setPassword("password");
 	}
 
 	public static Connection getConnection() throws SQLException {
